@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navigationbar{
+display: flex;
+}
+.navigationbar img{
+    margin-left: 2%;
+    width: 20%;
+    transition-duration: 1s;
+}
+.navigationbar img:hover{
+    box-shadow: 5px 5px 5px 3px blue;
+}
+.navigationbar ul{
+    width:80% ;
+    list-style-type: none;
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+}
+.navigationbar li{
+    font-size: 20px;
+    margin-left: 5%;
+}
+.navigationbar li:hover{
+    text-decoration: underline blue;
+}
+.introduction{
+    margin-top: 5%;
+    display: flex;
+}
+.introcontent{
+    margin-left: 2%;
+    width: 47%;
+}
+.introcontent p{
+    margin-top: 5%;
+    font-size: 20px;
+}
+.introcontent button{
+    margin-top: 5%;
+    height: 10%;
+    width:20%;
+    margin-left: 1%;
+    background-color: white;
+    transition-duration: 1s;
+}
+.introcontent button:hover{
+    border-radius: 10px;
+    border: 2px solid blue;
+    box-shadow: 2px 2px 2px 2px orange;
+    color: white;
+}
+.introphoto{
+    margin-left: 1%;
+    width:47% ;
+}
+.introphoto img{
+    width: 100%;
+    height: 80%;
+}
+.whatido{
+  width: 100%;
+  display: flex;
+}
+.whatido img{
+    margin-top: 10%;
+    width: 20%;
+    height: 60%;
+    margin-left: 2%;
+}
+.whatidocontent{
+margin-left: 10%;
+width: 70%;
+}
+.whatidocontent h1{
+    margin-left: 20%;
+   transition-duration: 1s;
+}
+.whatidocontent h1:hover{
+    text-decoration: underline blue;
+}
+.whatidocontent p{
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 3%;
+}
+.whatidocontent i{
+    font-size: 50px;
+    opacity: 0.5;
+    margin-left: 3%;
+}
+.whatidocontent i:hover{
+    opacity: 1;
+}   
+#logo{
+    font-size: 20px;
+}
+.connectme{
+    margin-top: 10%;
+}
+.heading-and-img h1{
+    margin-left: 2%;
+    transition-duration: 1s;
+}
+.heading-and-img h1:hover{
+    text-decoration: underline blue;
+}
+.connectme-content{
+    display: flex;
+}
+.infocontent{
+    width: 50%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.infocontent p{
+    margin-top: 3%;
+}
+.infocontent i{
+    font-size: 22px;
+    margin-top: 3%;
+}
+.infocontent a{
+    opacity: 0.5;
+}
+.infocontent a:hover{
+    opacity: 1;
+}
+.info img{
+    width: 30%;
+    margin-left: 50%;
+    margin-right: 10%;
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+.info img:hover{
+    border: 5px solid rgb(82, 82, 157);
+}
+.footer{
+    background-color: grey;
+    opacity: 0.75;
+}
+.footer:hover{
+    background-color: darkgray;
+    opacity: 1;
+}
